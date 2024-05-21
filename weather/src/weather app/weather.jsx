@@ -55,6 +55,7 @@ function Weather(){
     }
     return (
       <div className="container">
+        <h1>WEATHER APP</h1>
         <div className="top_bar">
           <input type="text" className="cityInput" placeholder="search" />
           <div className="search_icon" onClick={search}>
